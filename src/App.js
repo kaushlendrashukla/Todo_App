@@ -1,9 +1,9 @@
-import React, { useState, useRef } from 'react'
+import React, { useState} from 'react'
 
 import './App.css';
 
 function App() {
-  const todoref = useRef('')
+
   const [todo, setTodo] = useState('')
   const [todos, setTodos] = useState([])
   const [editId, setEditId] = useState(0)
